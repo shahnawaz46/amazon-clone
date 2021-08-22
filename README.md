@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+## Project is created by Shahnawaz
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## to visit project click on below link
+
+The app is deployed using Firebase at : https://clone-5e57e.web.app/
 
 ## Available Scripts
 
