@@ -1,0 +1,52 @@
+.sub-header-div{
+    background-color: #232f3f;
+    color: white;
+    padding: 10px 0px;
+}
+
+.sub-header-ul{
+    margin: 0px 40px;
+    padding: 0px;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.sub-header-ul::-webkit-scrollbar{
+    display: none;
+}
+
+.sub-header-ul li{
+    list-style-type: none;
+    font-size: 16px;
+    margin: 0px 10px;
+    padding: 3px 8px;
+    cursor: pointer;
+}
+
+.link{
+    color: white;
+}
+
+.active-link{
+    color: orange;
+}
+
+
+
+
+/* for mobiles */
+@media only screen and (max-width: 768px){
+    .sub-header-div{
+        background-color: rgb(102, 204, 206);
+    }
+    .sub-header-ul{
+        margin: 0px 15px;
+    }
+    .link{
+        color: black;
+    }
+
+    .active-link{
+        color: rgb(255, 72, 0);
+    }
+}
